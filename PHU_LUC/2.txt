@@ -1,0 +1,2 @@
+Tìm hiểu thế nào phân vị và lũy kế
+Khái niệm về DataFrame và Series 
