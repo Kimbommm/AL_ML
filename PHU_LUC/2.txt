@@ -1,2 +1,6 @@
 Tìm hiểu thế nào phân vị và lũy kế
 Khái niệm về DataFrame và Series 
+
+2.3. Reshape dataframe trên pandas
+    2.3.1. Melt: 
+    2.3.2. Biến đổi Dummy:
