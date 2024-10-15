@@ -1,0 +1,12 @@
+Đây là cấu trúc của dữ liệu với các cột cụ thể như sau:
+
+REG_DT: Ngày đăng ký hoặc ghi lại dữ liệu.
+ROUTE_CD: Mã số tuyến xe buýt.
+BUS_ID: Mã số xe buýt.
+BEGIN_NODE_ORDR: Thứ tự của trạm dừng bắt đầu.
+BEGIN_NODE_ID: ID của trạm dừng bắt đầu.
+END_NODE_ORDR: Thứ tự của trạm dừng kết thúc.
+END_NODE_ID: ID của trạm dừng kết thúc.
+MOVE_TM: Thời gian di chuyển giữa hai trạm dừng (thường tính bằng giây hoặc phút).
+STOP_TM: Thời gian dừng lại tại trạm (thường tính bằng giây hoặc phút).
+DAY_CD: Mã ngày (thể hiện loại ngày, chẳng hạn như ngày trong tuần, ngày cuối tuần hoặc ngày lễ).

@@ -1,0 +1,25 @@
+Dưới đây là phần phân loại và giải thích chi tiết từng cột dữ liệu trong bảng của bạn:
+
+BUS_ROUTE_ID: ID của tuyến xe buýt (mã số định danh tuyến xe buýt).
+SEQ: Số thứ tự hoặc thứ tự trạm dừng trên tuyến.
+BUS_NODE_ID: ID của trạm dừng (định danh trạm dừng hoặc nút giao thông).
+STTN_YN: Có phải là trạm dừng chính thức hay không (Y/N, Yes hoặc No).
+STTN_SEQ: Thứ tự của trạm dừng chính thức trên tuyến.
+STTN_TYPE: Loại trạm dừng (ví dụ: trạm đầu, trạm giữa, trạm cuối, v.v.).
+CONT_BROAD_YN: Có phát sóng thông báo hay không (Y/N, Yes hoặc No).
+STTN_NM: Tên của trạm dừng.
+POSX: Tọa độ X của trạm (kinh độ).
+POSY: Tọa độ Y của trạm (vĩ độ).
+ACCUM_DIST: Khoảng cách tích lũy từ điểm bắt đầu của tuyến đến trạm này (thường tính bằng mét hoặc km).
+BEFORE_NODE_DIST: Khoảng cách từ trạm hiện tại đến trạm trước đó (đo bằng mét hoặc km).
+AFTER_NODE_DIST: Khoảng cách từ trạm hiện tại đến trạm kế tiếp (đo bằng mét hoặc km).
+BEFORE_STTN_DIST: Khoảng cách từ trạm hiện tại đến trạm dừng chính thức trước đó.
+AFTER_STTN_DIST: Khoảng cách từ trạm hiện tại đến trạm dừng chính thức kế tiếp.
+BEFORE_INTS_DIST: Khoảng cách từ trạm hiện tại đến giao lộ trước đó.
+AFTER_INTS_DIST: Khoảng cách từ trạm hiện tại đến giao lộ kế tiếp.
+ETL_TYPE: Loại hình ETL (Extract, Transform, Load), xác định loại xử lý hoặc nguồn gốc của dữ liệu.
+ETL_DATE: Ngày tháng của quá trình ETL (ngày xử lý hoặc ghi nhận dữ liệu).
+Giải thích chi tiết:
+POSX và POSY: Đây là tọa độ địa lý của trạm dừng, giúp xác định vị trí của trạm trên bản đồ.
+ACCUM_DIST, BEFORE_NODE_DIST, AFTER_NODE_DIST: Các cột này liên quan đến khoảng cách giữa các trạm trên tuyến, cho biết thông tin về khoảng cách di chuyển giữa các trạm dừng hoặc nút giao thông.
+STTN_YN, STTN_SEQ, STTN_TYPE: Các cột này giúp phân biệt giữa các trạm dừng chính thức và các điểm dừng không chính thức, cũng như loại hình của trạm dừng.

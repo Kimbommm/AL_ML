@@ -1,0 +1,24 @@
+BUS_NODE_ID: 8002388
+→ Mã định danh trạm xe buýt.
+
+BUS_NODE_NM: ìœ ë“±ë§ˆì„ì•„íŒŒíŠ¸
+→ Tên trạm xe buýt (hiển thị bằng mã hóa không đúng, có thể là lỗi font).
+
+ARO_BUSSTOP_ID: 21600
+→ Mã định danh trạm dừng xe buýt trên tuyến.
+
+ARO_NM: ìœ ë“±ë§ˆì„ì•„íŒŒíŠ¸
+→ Tên tuyến đường hoặc khu vực trạm dừng (cũng bị lỗi mã hóa).
+
+BUSSTOP_ID: 3021255800
+→ Mã định danh trạm xe buýt.
+
+BUSSTOP_NM: ìœ ë“±ë§ˆì„ì•„íŒŒíŠ¸
+→ Tên trạm dừng xe buýt (bị lỗi mã hóa tương tự).
+
+ETL_TYPE: 0602
+→ Loại xử lý ETL.
+
+ETL_DATE: 2019-12-30 02:43:01
+→ Ngày xử lý ETL: 30/12/2019 02:43:01.
+
